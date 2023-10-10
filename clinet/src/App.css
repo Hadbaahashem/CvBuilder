@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+ font-size: 20px;
+ color:  rgb(41, 182, 53);
+}
+.header{
+  background-color: black;
+}
+.formWrapper {
+  background-color: rgb(239, 249, 238);
+  padding: 60px 60px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.formWrapperex{
+  background-color: rgb(239, 249, 238);
+  padding: 60px 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.formWrapperexp{
+  background-color: rgb(239, 249, 238);
+  padding: 110px 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.App{
+  padding-top: 34px;
+  font-family: 'Almarai', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.progressbar {
+    width: 600px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: 20%;
+  }
+  
+  .progressbar div {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(41, 182, 53);
+  }
+  
+  .button-container {
+    margin-left: 10px;
+    width: 100%;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+
+button {
+    padding: 12px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(41, 182, 53);
+    border: none;
+    color: #f5f5f5;
+    font-size: 15px;
+    border-radius: 4px;
+}
